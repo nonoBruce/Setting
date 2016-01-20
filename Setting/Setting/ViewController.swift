@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         arr.append("prefs:root=General&path=About")
         arr.append("prefs:root=Phone")
         arr.append("prefs:root=DEVELOPER")
+
     }
     
     override func didReceiveMemoryWarning() {
