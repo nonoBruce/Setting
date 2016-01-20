@@ -45,9 +45,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
-        var parameter = url.query
-        var alert = UIAlertView(title: sourceApplication!, message: parameter, delegate: nil, cancelButtonTitle: "OK")
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        let parameter = url.query
+        let alert = UIAlertView(title: sourceApplication!, message: parameter, delegate: nil, cancelButtonTitle: "OK")
         alert.show()
         
         return true
