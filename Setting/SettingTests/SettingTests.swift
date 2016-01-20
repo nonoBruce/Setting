@@ -2,8 +2,8 @@
 //  SettingTests.swift
 //  SettingTests
 //
-//  Created by yanwen on 15/5/8.
-//  Copyright (c) 2015年 GameBegin. All rights reserved.
+//  Created by bruce on 15/5/8.
+//  Copyright (c) 2015年 ky. All rights reserved.
 //
 
 import UIKit
