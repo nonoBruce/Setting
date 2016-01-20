@@ -33,8 +33,9 @@ class ViewController: UIViewController {
     
     @IBAction func execAction(sender: UIButton) {
         
-        UIApplication.sharedApplication().openURL(NSURL(string: arr[sender.tag])!)
-
+        if(UIApplication.sharedApplication().canOpenURL(NSURL(string: arr[sender.tag])!)){
+            UIApplication.sharedApplication().openURL(NSURL(string: arr[sender.tag])!)
+        }
     }
     
 }
